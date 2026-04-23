@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Ravipsa Exotic- Penjualan Hewan Berkualitas</title>
+    <!-- Google Fonts & Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- navbar -->
+<nav class="navbar">
+    <div class="container nav-wrapper">
+        <div class="logo">
+            <h1>Ravispa Exotic
+                <img src="ravispa 2026-04-16 at 11.57.27.jpeg" alt="Logo" class="logo-img">
+            </h1>
+        </div>
+        <div class="nav-links">
+            <a href="#">Beranda</a>
+            <a href="#hewan">Hewan</a>
+        </div>
+    </div>
+</nav>
+
+<!-- hero -->
+<section class="hero">
+    <div class="container hero-grid">
+        <div class="hero-text">
+            <h1>Find your favorite animals here</h1>
+            <p>Ravispa menyediakan hewan sehat, dan kualitas yang selalu kami jaga. Built on Trust, driven by Integrity!</p>
+            <div class="SOP">
+            <h2>KEBIJAKAN PEMBELIAN RAVISPA EXOTIC❗</h2>
+            <p>➤
+Seluruh hewan yang disediakan oleh Ravispa Exotic telah melalui proses seleksi dan penanganan dengan standar yang baik.
+Dengan melakukan pembelian, pelanggan dianggap telah memahami tanggung jawab serta dasar perawatan hewan yang dibeli.</p>
+            <p>➤ Kami berhak menolak transaksi apabila pembeli dinilai tidak siap
+                 atau tidak memenuhi kelayakan dalam merawat hewan</p>
+            <p>➤ Pembayaran dilakukan melalui metode yang tersedia (Transfer bank, E-wallet). Kami tidak menerima retur/refund (kecuali atas kesalahan pihak kami). </p>
+            <p>➤ Kami menyediakan panduan dasar perawatan. Konsultasi pembelian diperbolehkan dalam batas wajar, namun pembeli tetap disarankan untuk belajar dan memahami kebutuhan hewan secara mandiri. </p>
+            <p>➤ Garansi hanya berlaku saat hewan di terima dengan bukti video unboxing, claim tanpa bukti tidak dapat di proses. Tanggung jawab sepenuhnya berpindah kepada pembeli setelah hewan diterima dalam kondisi baik.  </p>
+            <h2>Thank you for trusting Ravispa Exotic. We are commitmen to unpholding quality, trust, and responsibility in every step we take.</h2>
+        </div>
+        
+        </div>
+    </div>
+</section>
+
+<!-- produk section -->
+<div class="container" id="hewan">
+    <div style="margin-top: 64px;">
+        <h2 class="section-title">Rare. Wild. Premium.</h2>
+        <div class="section-sub"> Exotic Without Limits.</div>
+    </div>
+
+    <!-- filter -->
+    <div class="filter-bar" id="filterBar">
+        <button class="filter-btn active" data-filter="all">Semua</button>
+        <button class="filter-btn" data-filter="Reptile">🦎 Reptile</button>
+        <button class="filter-btn" data-filter="Kucing">🐿️ Mamalia</button>
+        <button class="filter-btn" data-filter="Burung">🐦‍🔥 Aves</button>
+       
+    </div>
+
+    <div class="product-grid" id="productGrid"></div>
+</div>
+
+<!-- modal detail -->
+<div id="detailModal" class="modal">
+    <div class="modal-content">
+        <i class="fas fa-paw" style="font-size: 2rem; color:#e67e22;"></i>
+        <h3 id="modalName">Nama Hewan</h3>
+        <p id="modalDetail">Detail lengkap akan muncul disini.</p>
+        <p id="modalPrice" style="font-weight: bold; font-size: 1.4rem;"></p>
+        <button class="close-modal" id="closeModalBtn">Tutup</button>
+    </div>
+</div>
+
+<!-- footer -->
+<footer>
+    <div class="container footer-grid">
+        <div class="footer-col">
+            <h4> By - R A V I S P A
+                <br>
+                 <img src="hgbrnd Image 2026-04-16 at 15.21.27.jpeg" alt="Logo" class="logo-img">
+            </h4>
+            
+        </div>
+        <div class="footer-col">
+            <h4>Contact Us</h4>
+            <p><i class="fas fa-phone-alt"></i> <a href="tel:+6285819859937">+62 858-1985-9937</a> </p>
+            <p><i class="fas fa-envelope"></i> <a href="mailto:ravispaexotic@gmail.com">ravispaexotic@gmail.com</a> </p>
+            <p><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/ravispaexotic" target="_blank">RavispaExotic</a></p>
+        </div>
+        <div class="footer-col">
+            <h4>Operasional Hours </h4>
+            <p>Senin - Sabtu : 09.00 - 00.00</p>
+            <p>Minggu : Closed </p>
+        </div>
+    </div>
+    <div class="container copyright">
+        <p>© 2026 — RAVISPA it is a commitment to trust, quality, and limitless solidarity.</p>
+    </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
